@@ -6,6 +6,7 @@
 *.lo
 *.o
 *.obj
+*.log
 
 # Precompiled Headers
 *.gch
@@ -36,13 +37,14 @@
 
 # ignore sdk setup build folders
 pico/
-led_toggle/src/src/
-led_toggle/src/CMakeFiles/
-led_toggle/src/elf2uf2/
-led_toggle/src/generated/
-led_toggle/src/pico_extras/
-led_toggle/src/pico-sdk/
-led_toggle/src/pioasm/
-led_toggle/src/CMakeCache.txt
-led_toggle/src/cmake_install.cmake
-led_toggle/src/Makefile
+*/src/src/
+*/src/CMakeFiles/
+*/src/elf2uf2/
+*/src/generated/
+*/src/pico_extras/
+*/src/pico-sdk/
+*/src/pioasm/
+*/src/CMakeCache.txt
+*/src/cmake_install.cmake
+*/src/Makefile
+build/
