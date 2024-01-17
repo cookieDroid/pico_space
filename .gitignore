@@ -30,3 +30,19 @@
 *.exe
 *.out
 *.app
+
+#json config
+.vscode/
+
+# ignore sdk setup build folders
+pico/
+led_toggle/src/src/
+led_toggle/src/CMakeFiles/
+led_toggle/src/elf2uf2/
+led_toggle/src/generated/
+led_toggle/src/pico_extras/
+led_toggle/src/pico-sdk/
+led_toggle/src/pioasm/
+led_toggle/src/CMakeCache.txt
+led_toggle/src/cmake_install.cmake
+led_toggle/src/Makefile
